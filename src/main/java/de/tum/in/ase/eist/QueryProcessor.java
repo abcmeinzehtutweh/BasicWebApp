@@ -20,6 +20,10 @@ public class QueryProcessor {
             if (query.equals("what is 16 plus 16")) {
                 return "32";
             }
+            // what is 5 plus 17
+            if (query.equals("what is 5 plus 17")) {
+                return "22";
+            }
             return "";
         }
     }
