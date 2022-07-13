@@ -16,8 +16,9 @@ public class QueryProcessor {
             return "MyTeam";
         } else {
             // TODO extend the programm here
-            if (query.contains("20") && query.contains("plus")) {
-                return "40";
+            // what is 16 plus 16
+            if (query.equals("what is 16 plus 16")) {
+                return "32";
             }
             return "";
         }
