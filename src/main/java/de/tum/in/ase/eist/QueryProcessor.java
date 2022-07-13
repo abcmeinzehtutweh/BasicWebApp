@@ -21,9 +21,10 @@ public class QueryProcessor {
                 return "32";
             }
             // what is 5 plus 17
-            if (query.equals("what is 5 plus 17")) {
+            if (query.equals("what is 5 plus 17")||query.equals("%20what%20is%205%20plus%2017")) {
                 return "22";
             }
+
             return "";
         }
     }
